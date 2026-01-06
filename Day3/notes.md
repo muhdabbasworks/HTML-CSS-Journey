@@ -3,7 +3,7 @@
 ## What I did today
 - I spent the entire day revising previously learned HTML concepts.
 - Practiced writing clean and semantic HTML structure.
-- Focused on understanding *why use the tag* a tag is used, not just *how to use tag*.
+- Focused on understanding *why use* a tag is used, not just *how to use tag*.
 
 ## Concepts revised
 - HTML document structure
