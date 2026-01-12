@@ -1,0 +1,14 @@
+body{
+    background-color: #93BD57;
+}
+h1, h2, h3, h4 {
+    background-color: #980404;
+    text-align: center;
+    color: #fffde1;
+}
+
+.same-color {
+    color: #980404;
+    background-color: #FFFDE1;
+}
+
