@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page : 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a id="logo" href="index.html">Heartfelt Handmade</a>
+        <a class="link-header" href="">Product Information</a>
+        <a class="link-header" href="">Store Information</a>
+        <a class="link-header" href="">Order Now</a>
+        <input type="text" id="searchbar" placeholder="Search Here">
+        <button id="header-button">Search</button>
+    </header>  
+
+    <main>
+        <h1 class="main-headings">Client Interaction Form</h1>
+
+        <form action="t.php" id="order-form">
+            <fieldset>
+                <legend>Order Details</legend>
+                    <label for="name">
+                        Name. <input type="text" name="name" id="name"
+                        placeholder="Enter Your Name..." required>
+                    </label>
+
+                    <label for="email">
+                        Email. <input type="email" name="email" id="email"
+                        placeholder="Enter Email address..." required>
+                    </label>
+
+                    <label for="password">
+                        Password. <input type="password" name="password" id="password"
+                        placeholder="Enter Your password..." minlength="8" required>
+                    </label>
+
+                    <label for="cuisine1">
+                        Select Cuisine. <input type="radio" name="cuisine" id="cuisine1"
+                        value="Baked wings" required>Baked Wings.
+                    </label>
+
+                    <label for="cuisine2">
+                        <input type="radio" name="cuisine" id="cuisine2" required
+                        value="Chicken tikka pizza">Chicken Tikka Pizza.
+                    </label>
+
+                    <label for="cuisine3">
+                        <input type="radio" name="cuisine" id="cuisine3" required
+                        value="Pizza Stacker">Pizza Stacker.     
+                    </label>
+
+                    <label for="cuisine4">
+                        <input type="radio" name="cuisine" id="cuisine4" required
+                        value="Special Pizza">Special Pizza.
+                    </label>
+
+                    <label for="Condiment1">
+                        <input type="checkbox" name="condiment" id="Condiment1" value="sauce"> Sauce
+                    </label>
+
+                    <label for="Condiment2">
+                        <input type="checkbox" name="condiment" id="Condiment2" value="ketchup"> Ketchup
+                    </label>
+
+                    <label for="Condiment3">
+                        <input type="checkbox" name="condiment" id="Condiment3" value="raita"> Raita
+                    </label>
+
+                    <select name="city" id="city" required>
+                        <option value="" selected disabled>Select City</option>
+                        <option value="peshawar">Peshawar</option>
+                        <option value="islamabad">Islamabad</option>
+                        <option value="lahore">Lahore</option>
+                    </select>
+
+                    Feedback. <textarea name="feedback" id="feedback" rows="4"
+                    placeholder="Kindly give us your valueable feedback ...">
+                    </textarea>
+                    
+                    <label for="submit">
+                        <input type="submit" name="submit" id="submit">
+                    </label>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="page2-footer">
+        <p class="footer-para">Heartfelt Handmade</p>
+        <p class="footer-para">© All rights reserved</p>
+    </footer>
+
+</body>
+</html>
